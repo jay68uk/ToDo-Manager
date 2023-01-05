@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo-manager-app", "todo-manager-app\todo-manager-app.csproj", "{B5057D3A-DA42-4217-B321-14B43A0D90E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo-manager-library", "todo-manager-library\todo-manager-library.csproj", "{DC42AE6A-F4BB-4B56-B901-A1BDBF658C67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5057D3A-DA42-4217-B321-14B43A0D90E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5057D3A-DA42-4217-B321-14B43A0D90E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5057D3A-DA42-4217-B321-14B43A0D90E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5057D3A-DA42-4217-B321-14B43A0D90E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC42AE6A-F4BB-4B56-B901-A1BDBF658C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC42AE6A-F4BB-4B56-B901-A1BDBF658C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC42AE6A-F4BB-4B56-B901-A1BDBF658C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC42AE6A-F4BB-4B56-B901-A1BDBF658C67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5D0837B-4A03-4B0A-A1D6-552032A64F0C}
+	EndGlobalSection
+EndGlobal
