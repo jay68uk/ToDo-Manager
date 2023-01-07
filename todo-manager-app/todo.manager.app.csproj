@@ -8,12 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.12" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.12" PrivateAssets="all" />
+    <PackageReference Include="Throw" Version="1.3.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\todo-manager-library\todo-manager-library.csproj" />
+    <ProjectReference Include="..\todo-manager-library\todo.manager.library.csproj" />
   </ItemGroup>
 
   <ItemGroup>

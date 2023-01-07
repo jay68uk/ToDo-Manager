@@ -1,6 +1,6 @@
 ﻿namespace todo_manager_library.Services;
 
-internal interface IDataService
+public interface IDataService
 {
     internal IEnumerable<T> GetList<T>(Guid listId) where T : class;
     internal bool SaveItem<T>(T item);

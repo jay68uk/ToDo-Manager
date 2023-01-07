@@ -1,6 +1,6 @@
 ﻿namespace todo_manager_library.Services.InMemoryData;
 
-internal class InMemoryDataService : IDataService
+public class InMemoryDataService : IDataService
 {
     IEnumerable<T> IDataService.GetList<T>(Guid listId)
     {
